@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Education</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pasword">Password</string>
+    <string name="hint_facebook">Connect With Facebook</string>
+    <string name="hint_twitter">Connect With Twitter</string>
+    <string name="hint_tumbler">Connect With Tumbler</string>
+    <string name="hint_connect">connect</string>
+    <string name="graid_title">Browse Throught Thousand of Cource in Our Library</string>
+    <string name="hint_profile_desc">they are richest person in the world with belong in india and donate some Cr. in poor people</string>
+    <string name="title_text">wordpress with android new devloper need in compnay</string>
+    <string name="about_hint">Here we have defined a Menu using the  which serves as a container for menu items. An creates a MenuItem, which represents a single item in a menu. As you can see, each item has an id, an icon, and a title.</string>
+    <string name="cource_text">Here we have defined a Menu using the  which serves as a container for menu items. An creates a MenuItem, which represents a single item in a menu. As you can see, each item has an id, an icon, and a title.</string>
+</resources>

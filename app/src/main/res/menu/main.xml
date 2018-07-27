@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nav_Detail"
+        android:title="Detail"
+        android:icon="@drawable/ic_info_outline_black_24dp"/>
+
+    <item
+        android:id="@+id/nav_page"
+        android:title="Page Address"/>
+
+    <item
+        android:id="@+id/nav_photography"
+        android:title="Photography"/>
+
+    <item
+        android:id="@+id/tabs"
+        android:title="Two Tab Layout"/>
+
+</menu>

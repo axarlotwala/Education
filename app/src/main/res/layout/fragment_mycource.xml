@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MycourceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#616161">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/blogger"
+            app:civ_border_width="2dp"
+            android:layout_margin="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="paul walker"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/White"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="paulwalker@gmail.com"
+            android:textSize="14sp"
+            android:textColor="@color/White"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="50dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Cource"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#F5F5F5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/blogger"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Digital Markting Cource"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:lines="1"
+                    android:layout_margin="10dp" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alexnder cauge"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lession 2 To 5"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="15sp"
+                        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                        android:drawablePadding="20dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_more_vert_black_24dp"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#E0E0E0">
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2/5 Assignment Completed"
+                        android:layout_margin="10dp"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <at.markushi.ui.CircleButton
+                            android:id="@+id/complete"
+                            android:layout_width="40dip"
+                            android:layout_height="40dip"
+                            android:src="@drawable/ic_check_black_24dp"
+                            app:cb_color="#99CC00"
+                            android:layout_margin="10dp"
+                            app:cb_pressedRingWidth="8dip" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <at.markushi.ui.CircleButton
+                            android:id="@+id/complete2"
+                            android:layout_width="40dip"
+                            android:layout_height="40dip"
+                            android:src="@drawable/ic_check_black_24dp"
+                            app:cb_color="#99CC00"
+                            android:layout_margin="10dp"
+                            app:cb_pressedRingWidth="8dip" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="current"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="10dp"/>
+
+                        </LinearLayout>
+
+                        <at.markushi.ui.CircleButton
+                            android:id="@+id/pending33"
+                            android:layout_width="40dip"
+                            android:layout_height="40dip"
+                            android:src="@drawable/ic_check_black_24dp"
+                            app:cb_color="#BDBDBD"
+                            android:layout_margin="10dp"
+                            app:cb_pressedRingWidth="8dip" />
+
+                        <at.markushi.ui.CircleButton
+                            android:id="@+id/pending4"
+                            android:layout_width="40dip"
+                            android:layout_height="40dip"
+                            android:src="@drawable/ic_check_black_24dp"
+                            app:cb_color="#BDBDBD"
+                            android:layout_margin="10dp"
+                            app:cb_pressedRingWidth="8dip" />
+
+                        <at.markushi.ui.CircleButton
+                            android:id="@+id/pending5"
+                            android:layout_width="40dip"
+                            android:layout_height="40dip"
+                            android:src="@drawable/ic_check_black_24dp"
+                            app:cb_color="#BDBDBD"
+                            android:layout_margin="10dp"
+                            app:cb_pressedRingWidth="8dip" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#EEEEEE">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:layout_margin="10dp"
+                            android:text="Continue"
+                            android:textColor="@color/red"
+                            android:textSize="15sp"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+

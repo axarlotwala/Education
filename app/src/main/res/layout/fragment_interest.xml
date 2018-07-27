@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".InterestFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:layout_gravity="center">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/images"/>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="10dp"
+           android:layout_gravity="bottom">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Business"
+               android:textSize="15sp"
+               android:textColor="@color/White"
+               android:layout_marginLeft="1dp"
+               android:gravity="left"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/White"
+               android:text="Finince and Capital Market"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_gravity="bottom"/>
+
+       </LinearLayout>
+   </android.support.v7.widget.CardView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+           android:id="@+id/playlist_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+   <!-- <android.support.design.widget.BottomNavigationView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:background="@color/red"
+        app:itemIconTint="@color/White"
+        app:itemTextColor="@color/White"
+        app:menu="@menu/bottom">
+    </android.support.design.widget.BottomNavigationView>-->
+
+
+
+</LinearLayout>
